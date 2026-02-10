@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  reactCompiler: true,
+  reactStrictMode: false, // ЭТА СТРОКА ЧИНИТ ВИДЕО
 };
 
 export default nextConfig;
